@@ -1,0 +1,19 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 99px;
+    border: solid 2px black;
+    background: rgb(114, 188, 220);
+    height: 730px;
+    border-radius: 15px;
+    width: 500px;
+    box-shadow: 10px 10px 5px #0f0f0f;
+    
+}
+.formulario{transition-timing-function: ease-out;}
+.formulario>h1{
+    color: #201043;
+    font-size: 25px;
+    text-align: center;
+}

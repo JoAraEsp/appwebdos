@@ -1,0 +1,50 @@
+.titulo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.nombreC{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.inputs{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border:none;
+    border-bottom:1px solid rgb(0, 0, 0);
+    font-family:  Times, serif;
+    font-size: 20px;
+    width: 80%;
+}
+.separador{
+    margin-top: 10px;
+    text-align: center;
+}
+
+label{
+    font-size: 18px;
+}
+
+.button{
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    height: 30px;
+    width:300px ;
+    
+}
+
+.button:hover{
+    box-shadow: 0 9px 18px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+input{
+    font-size: 15px;
+}
